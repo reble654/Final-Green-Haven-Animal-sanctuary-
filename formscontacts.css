@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Georgia, serif;
+    background-color: #f4faf4;
+    color: #2d4a2d;
+  }
+  
+  /* --- NAVBAR --- */
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2d6a2d;
+  }
+  
+  .logo-group {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .logo-group p {
+    font-weight: 800;
+    color: lightblue;
+    font-size: 1.1rem;
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    gap: 2rem;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  
+  .nav-links a:hover {
+    color: lightgreen;
+  }
+  
+  /* --- SHARED SECTION STYLES --- */
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #2d6a2d;
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-subtitle {
+    text-align: center;
+    color: #5a8a5a;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  
+  /* --- FORMS SECTION --- */
+  .forms-section {
+    padding: 3rem 4rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .forms-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .form-card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: transform 0.2s;
+  }
+  
+  .form-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .form-icon {
+    font-size: 3rem;
+  }
+  
+  .form-card h3 {
+    font-size: 1.4rem;
+    color: #2d6a2d;
+  }
+  
+  .form-card p {
+    color: #5a8a5a;
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+  
+  .form-btn {
+    display: inline-block;
+    background-color: lightgreen;
+    color: #2d4a2d;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: auto;
+  }
+  
+  .form-btn:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* --- CONTACT SECTION --- */
+  .contact-section {
+    background-color: #2d6a2d;
+    padding: 3rem 4rem;
+    margin-top: 2rem;
+  }
+  
+  .contact-section .section-title {
+    color: white;
+  }
+  
+  .contact-section .section-subtitle {
+    color: lightgreen;
+  }
+  
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .contact-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .contact-icon {
+    font-size: 2.5rem;
+  }
+  
+  .contact-card h3 {
+    font-size: 1.2rem;
+    color: lightgreen;
+  }
+  
+  .contact-card p {
+    font-size: 0.95rem;
+    color: #d4edda;
+  }
+  
+  /* --- MOBILE --- */
+  @media (max-width: 768px) {
+    .forms-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .forms-section,
+    .contact-section {
+      padding: 2rem;
+    }
+  }

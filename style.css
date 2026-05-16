@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2d6a2d;
+  }
+  
+  .logo-group {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .logo-group p {
+    font-weight: 800;
+    color: lightblue;
+    font-size: 1.1rem;
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    gap: 2rem;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  
+  .nav-links a:hover {
+    color: lightgreen;
+  }
+
+.brand {
+    font-weight: bold;
+    color: lightblue;
+    font-size: 40px;
+  }
+
+  .round-btn {
+    display: inline-block;
+    background-color: lightgreen;
+    color: white;
+    text-decoration: none;       
+    padding: 0.75rem 1.5rem;     
+    border-radius: 50px;         
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .round-btn:hover {
+    background-color: #4CAF50;   
+    cursor: pointer;
+  }
+
+  .about-container {
+    display: flex;
+    align-items: center;   
+    gap: 2rem;            
+  }
+  
+  .about-text {
+    border: 2px solid lightgreen;   
+    border-radius: 12px;            
+    padding: 1.5rem;                
+    max-width: 500px;               
+  }
+  
+  .about-img {
+    width: 300px;    
+    height: auto;
+  }

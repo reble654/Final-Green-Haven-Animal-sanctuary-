@@ -1,44 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adoptable pets</title>
-</head>
-<body>
-     <header>
-        <h1>Green Haven Animal Rescue</h1>
-        <a href="index.html"><img src="images/SVG/hand logo.svg" alt="images"></a>
-        <nav>
-        <a href="aboutus.html">About Us</a>
-        <a href="adoptpets.html">Adoptable Pets</a>
-        <a href="petinfo.html">Pet Information</a>
-        <a href="formscontacts.html">Forms and Contacts</a>
-        </nav>
-    </header>
-    <main>
-        <section>
-        <h1>Adoptable Pets</h1>
-        <img src="images/SVG/cat 1.svg" alt="images">
-        <h2>Powder 5 months,</h2>
-        <h3>Female</h3>
-        </section>
-        <section>
-        <img src="images/SVG/cat 2.svg" alt="images">
-        <h2>Cheeto 6.5 months,</h2>
-        <h3>Male</h3>
-        </section>
-        <section>
-        <img src="images/SVG/Artboard 3.svg" alt="images">
-        <h2>Sakura 1 year,</h2>
-        <h3>Female</h3>
-        </section>
-        <section>
-        <img src="images/SVG/Artboard 4.svg">
-        <h2>Sylvester 1.5 years,</h2>
-        <h3>Male</h3>
-        </section>
-    </main>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adoptable Pets</title>
+        <link rel="stylesheet" href="adopt.css">
+      </head>
+      <body>
+      
+        <header>
+          <nav class="navbar">
+            <div class="logo-group">
+              <a href="index.html"><img class="logo" src="images/SVG/hand logo.svg" alt="Logo"></a>
+              <p>Green Haven Animal Rescue</p>
+            </div>
+            <ul class="nav-links">
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="adoptpets.html">Adoptable Pets</a></li>
+              <li><a href="petinfo.html">Pet Information</a></li>
+              <li><a href="formscontacts.html">Forms and Contacts</a></li>
+            </ul>
+          </nav>
+        </header>
+      
+        <main>
+          <h1 class="page-title">Adoptable Pets</h1>
+          <p class="page-subtitle">Find your perfect companion</p>
+      
+          <div class="pet-grid">
+      
+            <div class="pet-card">
+              <img src="images/SVG/cat 1.svg" alt="Powder">
+              <div class="pet-info">
+                <h2>Powder</h2>
+                <p class="pet-detail">5 months &bull; Female</p>
+                <a class="adopt-btn" href="formscontacts.html">Adopt Me</a>
+              </div>
+            </div>
+      
+            <div class="pet-card">
+              <img src="images/SVG/cat 2.svg" alt="Cheeto">
+              <div class="pet-info">
+                <h2>Cheeto</h2>
+                <p class="pet-detail">6.5 months &bull; Male</p>
+                <a class="adopt-btn" href="formscontacts.html">Adopt Me</a>
+              </div>
+            </div>
+      
+            <div class="pet-card">
+              <img src="images/SVG/Artboard 3.svg" alt="Sakura">
+              <div class="pet-info">
+                <h2>Sakura</h2>
+                <p class="pet-detail">1 year &bull; Female</p>
+                <a class="adopt-btn" href="formscontacts.html">Adopt Me</a>
+              </div>
+            </div>
+      
+            <div class="pet-card">
+              <img src="images/SVG/Artboard 4.svg" alt="Sylvester">
+              <div class="pet-info">
+                <h2>Sylvester</h2>
+                <p class="pet-detail">1.5 years &bull; Male</p>
+                <a class="adopt-btn" href="formscontacts.html">Adopt Me</a>
+              </div>
+            </div>
+      
+          </div>
+        </main>
+      
+      </body>
     
 </body>
 </html>
